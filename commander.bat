@@ -7,9 +7,9 @@ REM     commit
 REM     quick-commit
 REM     push
 
+SET MY_GIT_MENY_BASE_PATH=%~dp0
+SET MY_GIT_MENY_COMMANDER_PATH="%MY_GIT_MENY_BASE_PATH%commander.bat"
 SET GIT_BASH_PATH="D:\ProgramFiles\Git\bin\bash.exe"
-SET MY_GIT_MENY_COMMANDER_PATH="E:\mygitmenu\commander.bat"
-SET MY_GIT_MENY_BASE_PATH="E:\mygitmenu"
 
 if "%1%" == "install" (
   call :myGitMenuInstall
